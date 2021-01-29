@@ -1,0 +1,10 @@
+touch .gitignore
+git config --global user.name Ashish
+git config --global user.email "Ashish34gupta@gmail.com"
+git init
+git add .
+git commit -m "Initial commit"
+git status # just to see
+git remote add origin https://github.com/ashishaman13/GYM-Website.git
+git push origin master
+
