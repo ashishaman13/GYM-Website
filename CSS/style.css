@@ -1,0 +1,90 @@
+/* css reset */
+body {
+  font-family: "Sniglet", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("/img/bg.jpg");
+  background-size: cover;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 34px;
+  font-size: 13px;
+}
+.left img {
+  width: 88px;
+}
+.left div {
+  text-align: center;
+}
+.center {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  border: 2px solid green;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 34px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: rgb(112, 102, 102);
+  text-decoration: underline;
+}
+.btn {
+  font-family: "Sniglet", cursive;
+  margin: 0px 8px;
+  background: #ff0a0a;
+  padding: 7px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ab0303;
+}
+.container {
+  border: 2px solid orange;
+  margin: 91px 1057px;
+  padding: 131px 18px;
+  width: 33%;
+  border-radius: 10%;
+  /* background-color: rgb(240, 230, 230); */
+}
+h1 {
+  color: rgb(201, 12, 12);
+}
+.form-group input {
+  width: 80%;
+  margin: 16px 49px;
+  padding: 12px;
+  font-family: "Sniglet", cursive;
+  font-style: italic;
+}
+.container h1 {
+  margin: 25px;
+  text-align: center;
+}
+.container button {
+  width: 85%;
+  margin: 10px 48px;
+  padding: 10px;
+}
